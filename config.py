@@ -3,7 +3,7 @@ device = 'cuda' # or 'cpu'
 
 # data settings
 dataset_dir = '/mnt/data/lab/datasets/mvtec3d' # parent directory of class folders
-feature_dir = 'data/features/' # directory where features are stored and loaded from
+feature_dir = '/mnt/data/lab/FedLab/AST/data/features/' # directory where features are stored and loaded from
 use_3D_dataset = True # is MVTec 3D used?
 pre_extracted = True # were feature pre-extracted with extract_features? (recommended)
 modelname = "hog_experiment" # export evaluations/logs with this name
