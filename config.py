@@ -2,7 +2,7 @@
 device = 'cuda' # or 'cpu'
 
 # data settings
-dataset_dir = '/path/to/your/dataset/' # parent directory of class folders
+dataset_dir = '/mnt/data/lab/datasets/mvtec3d' # parent directory of class folders
 feature_dir = 'data/features/' # directory where features are stored and loaded from
 use_3D_dataset = True # is MVTec 3D used?
 pre_extracted = True # were feature pre-extracted with extract_features? (recommended)
